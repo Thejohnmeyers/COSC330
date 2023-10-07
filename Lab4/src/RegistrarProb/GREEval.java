@@ -1,5 +1,6 @@
 package RegistrarProb;
-
+//john meyers
+//GRE implementation for grades
 public class GREEval extends CriteriaLink{
 	public GREEval(EvaluationCriteria Next) {
 		super(Next);

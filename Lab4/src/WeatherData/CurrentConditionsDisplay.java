@@ -2,7 +2,8 @@ package WeatherData;
 
 import java.util.Observable;
 import java.util.Observer;
-	
+	//John Meyers
+//current conditions implmentation of observer
 @SuppressWarnings("deprecation")
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 	Observable observable;

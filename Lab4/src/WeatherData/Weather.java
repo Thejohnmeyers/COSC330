@@ -1,7 +1,7 @@
 package WeatherData;
 import java.util.Observable;
 import java.util.Observer;
-	
+//John Meyers
 @SuppressWarnings("deprecation")
 public class Weather extends Observable {
 	private float temperature;
@@ -13,13 +13,13 @@ public class Weather extends Observable {
 	public void measurementsChanged() {
 		setChanged();
 		notifyObservers();
-	}
+	}//notifying the observers and displaying through the observers
 	
 	public void setMeasurements(float temperature, float humidity, float pressure) {
 		this.temperature = temperature;
 		this.humidity = humidity;
 		this.pressure = pressure;
-		measurementsChanged();
+		measurementsChanged();//calling the observers after setting the new parameters
 	}
 	
 	public float getTemperature() {

@@ -1,5 +1,6 @@
 package RegistrarProb;
-
+//john meyers
+//TOEFL implementation for grades
 public class TOEFLEval extends CriteriaLink{
 	public TOEFLEval(EvaluationCriteria Next) {
 		super(Next);
