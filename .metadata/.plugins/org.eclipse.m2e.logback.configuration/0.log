@@ -1,0 +1,127 @@
+2020-09-02 20:24:10,992 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2020-09-03 11:03:18,528 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-03 11:12:18,862 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-03 11:23:21,502 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-09-04 11:17:48,084 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-09-08 11:09:49,911 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-09-18 11:38:24,920 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-10-01 11:09:33,181 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-11-13 11:05:50,232 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-12-17 18:31:51,644 [Worker-47: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-12-17 18:31:52,048 [Worker-47: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2022-04-10 15:52:04,394 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-06-22 10:22:56,570 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-06-23 11:14:35,642 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-17 17:33:11,786 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2022-11-17 17:33:47,256 [Worker-10: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-17 17:40:58,669 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2022-11-17 17:41:23,690 [Worker-8: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-12-21 17:11:10,233 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2023-01-09 13:09:21,482 [main] WARN  org.eclipse.jgit.util.FS - Cannot run program "git" (in directory "\usr\bin"): CreateProcess error=2, The system cannot find the file specified
+2023-03-27 15:39:14,773 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-31 10:35:37,241 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-08-31 13:52:13,048 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2023-09-27 22:32:54,087 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-09-27 22:35:25,016 [main] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Git\etc\gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:na]
+	at java.base/java.io.File.createNewFile(File.java:1027) ~[na:na]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1627) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:132) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:219) ~[na:na]
+	at org.eclipse.egit.ui.internal.preferences.ConfigurationEditorComponent.save(ConfigurationEditorComponent.java:150) ~[na:na]
+	at org.eclipse.egit.ui.internal.preferences.GlobalConfigurationPreferencePage.performOk(GlobalConfigurationPreferencePage.java:205) ~[na:na]
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:459) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.window.Window.open(Window.java:799) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66) ~[na:na]
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.500.v20200422-1833.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+2023-09-27 22:35:30,794 [main] ERROR o.e.j.i.storage.file.LockFile - Creating lock file C:\Program Files\Git\etc\gitconfig.lock failed
+java.io.IOException: Access is denied
+	at java.base/java.io.WinNTFileSystem.createFileExclusively(Native Method) ~[na:na]
+	at java.base/java.io.File.createNewFile(File.java:1027) ~[na:na]
+	at org.eclipse.jgit.util.FS.createNewFileAtomic(FS.java:1627) ~[na:na]
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:132) ~[na:na]
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:219) ~[na:na]
+	at org.eclipse.egit.ui.internal.preferences.ConfigurationEditorComponent.save(ConfigurationEditorComponent.java:150) ~[na:na]
+	at org.eclipse.egit.ui.internal.preferences.GlobalConfigurationPreferencePage.performOk(GlobalConfigurationPreferencePage.java:205) ~[na:na]
+	at org.eclipse.jface.preference.PreferencePage.performApply(PreferencePage.java:459) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.preference.PreferencePage.lambda$1(PreferencePage.java:289) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.window.Window.open(Window.java:799) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.ui.internal.OpenPreferencesAction.run(OpenPreferencesAction.java:66) ~[na:na]
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:579) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.jface.action.ActionContributionItem.lambda$4(ActionContributionItem.java:413) ~[org.eclipse.jface_3.20.0.v20200505-1952.jar:na]
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4213) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1037) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4030) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630) ~[org.eclipse.swt.win32.win32.x86_64_3.114.100.v20200604-0951.jar:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1158) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1047) ~[na:na]
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:658) ~[na:na]
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338) ~[na:na]
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:557) ~[na:na]
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:154) ~[na:na]
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:150) ~[na:na]
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203) ~[org.eclipse.equinox.app_1.4.500.v20200422-1833.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255) ~[org.eclipse.osgi_3.15.300.v20200520-1959.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:657) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:594) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1447) ~[org.eclipse.equinox.launcher_1.5.700.v20200207-2156.jar:na]
+2023-10-17 09:19:32,251 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-24 13:49:10,712 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-10-25 16:10:40,113 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

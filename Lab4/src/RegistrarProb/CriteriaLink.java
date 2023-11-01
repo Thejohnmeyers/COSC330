@@ -1,5 +1,6 @@
 package RegistrarProb;
-
+//John Meyers
+//evaluates one at a time
 public class CriteriaLink extends EvaluationCriteria{
 	private EvaluationCriteria next;
 	public CriteriaLink(EvaluationCriteria theNext) {

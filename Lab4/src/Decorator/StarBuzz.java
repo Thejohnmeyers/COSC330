@@ -1,5 +1,6 @@
 package Decorator;
-
+//John Meyers
+//testing out starbuzz decorator
 public class StarBuzz {
 
 	public static void main(String[] args) {

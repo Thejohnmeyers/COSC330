@@ -1,5 +1,6 @@
 package problem2;
-
+//John Meyers
+//testing the double interface
 public class Prob2Main {
 
 	public static void main(String[] args) {

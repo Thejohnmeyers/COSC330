@@ -1,4 +1,5 @@
-
+//JOhn Meyers
+//testing strategy
 public class Strat1Main {
 	public static void main(String[] args) {
 		

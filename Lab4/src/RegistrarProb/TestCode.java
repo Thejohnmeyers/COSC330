@@ -1,5 +1,6 @@
 package RegistrarProb;
-
+//John Meyers 
+//Testing the decorator
 public class TestCode {
 	public static void main(String args[]) {
 		Application app = new Application();
